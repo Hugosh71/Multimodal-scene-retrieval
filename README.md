@@ -2,7 +2,7 @@
 
 Search video archives using natural language. Describe a scene in plain text (or provide a reference image) and the system returns the most relevant video segments.
 
-Built entirely with open-source models — no API key required.
+Built entirely with open-source models.
 
 ---
 
