@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Generated data (re-created by running ingest)
+data/chroma_db/
+data/frames/
+data/video_catalog.json
+
+# Keep the videos folder structure but not the actual videos (too large)
+data/videos/*
+!data/videos/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
